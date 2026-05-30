@@ -27,7 +27,7 @@ CREATE TABLE usuarios(
     password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO usuarios (usuario, nombre, telefono, direccion, password) VALUES ("lourdes", "Lourdes veintimilla", "6667771234", "Nowhere", "$2y$10$6zeiv5cq4/HCjWBH5X/Fd.yxKfDaWa5sJaYfW302n./awI/lQcH0i");
+INSERT INTO usuarios (usuario, nombre, telefono, direccion, password) VALUES  ("lourdes", "Lourdesitbadmin", "6667771234", "Nowhere", "$2y$10$9Z1R/UaMr3QnZBkEhkWivORjMP5Ct9PgZ1RwuUNMzI6YQXzBtbbSi");
 
 CREATE TABLE ventas(
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
