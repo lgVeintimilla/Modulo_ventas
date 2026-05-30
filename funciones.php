@@ -1,6 +1,6 @@
 <?php
 
-define("PASSWORD_PREDETERMINADA", "LourdesItbDev");
+define("PASSWORD_PREDETERMINADA", "LourdesitbAdmin");
 define("HOY", date("Y-m-d"));
 
 function iniciarSesion($usuario, $password){
